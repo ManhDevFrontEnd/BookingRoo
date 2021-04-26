@@ -1,0 +1,36 @@
+/*Silder*/
+.section_silder{
+    position:relative ;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section_silder_background{
+   position: relative;
+    height: 250px;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    overflow: hidden;
+    
+}
+
+.section_silder_background img{
+    width: 100%;
+    /* height: 300px; */
+    transform: scale(1.5);
+    object-position: 0px -355px;
+    FONT-WEIGHT: 100;
+}
+.section_silder_logo{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    text-align: 45%;
+   
+}
+
+
+p{
+    font-size: 30px;
+    font-weight: 500;
+  
+}

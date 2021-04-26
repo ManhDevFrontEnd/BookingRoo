@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Host</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/all.css">
+      <link rel="stylesheet" href="css/menu.css">
+      <link rel="stylesheet" href="css/footer.css">
+      <link rel="stylesheet" href="css/Customer.css">
+   </head>
+   <body>
+      <!-- phần nemu
+         các file css liên kết vs menu
+          +menu.css 
+         
+         -->
+      <nav class="navbar navbar-light bg-dark">
+         <div class="container-fluid">
+            <a class="navbar-brand">
+               <h1 class="h3 logo">BookingRoo</h1>
+            </a>
+            <div class="list_menu d-flex">
+               <a href="#">Đăng nhập </a>
+               <p>&nbsp;|&nbsp;</p>
+               <a href="#">Đăng ký </a>
+            </div>
+         </div>
+      </nav>
+      <!-- phần silder 
+         Các file css liên kết vs silder 
+          Host.css 
+         
+         -->
+      <div class="section_silder">
+        
+            <div class="section_silder_background">
+               <img src="img/40888968.jpg" alt="">
+          
+            
+         </div>
+      </div>
+      <!-- phần Thông Tin khách hàng 
+         Các file css liên kết vs Customer/css
+          host.css 
+         
+         -->
+      <div class="section_content">
+      <div class="container">
+         <div class="section_content_customer">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+               <div class="saccordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     Thông Tin Admin
+                     </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="item">
+                        <div class="item_import">
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder col-sm-3 col-form-label">Họ & Tên: </label>
+                              <div class="col-sm-7">
+                                 <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập Họ & Tên Của Bạn">
+                                 <p class="error ">Họ & Tên Không koan Trống </p>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder col-sm-3 col-form-label">CMDN: </label>
+                              <div class="col-sm-7">
+                                 <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập CMDN Của Bạn ">
+                                 <p class="error  ">Họ & Tên Không khoảng Trống </p>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder  col-sm-3 col-form-label">Địa Chỉ: </label>
+                              <div class="col-sm-7">
+                                 <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập Đia Chỉ Của Bạn">
+                                 <p class="error  ">Họ & Tên Không khoảng Trống </p>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder col-sm-3 col-form-label">Email: </label>
+                              <div class="col-sm-7">
+                                 <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập Email Của Bạn">
+                                 <p class="error  ">Họ & Tên Không khoảng Trống </p>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder col-sm-3 col-form-label">Phone: </label>
+                              <div class="col-sm-7">
+                                 <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập Phone Của Bạn">
+                                 <p class="error ">Họ & Tên Không khoảng Trống </p>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <label for="staticEmail" class="fw-bolder col-sm-3 col-form-label">Maps: </label>
+                              <div class="col-sm-7">
+                                 <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Nhập Phone Của Masp">
+                                 <div id="map"></div>
+                              </div>
+                           </div>
+                           <div class=" mb-3 row">
+                              <div class="col-sm-7 m-auto">
+                                 <button type="button" class="btn btn-primary w-100 " style="margin-left: 25px;">Sửa</button>
+                              </div>
+                           </div>
+                        </div>
+                        <div>
+                           <div>
+                              <p>Tổng Số Doanh Thu:</p>
+                              <input class="form-control" type="text" placeholder="Disabled input"
+                                 aria-label="Disabled input example" disabled>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                     Danh sách Chủ Phòng Trọ
+                     </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="item">
+                        <div class="w-100" style="overflow-y: scroll;
+                           height: 250px;
+                           ">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th scope="col">Tên</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Số Điện Thoại </th>
+                                    <th scope="col"></th>
+
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <th> Nguyễn Đức Chuyên</th>
+                                
+                                    <td>chuyen@gmai.com</td>
+x                                    <td>0967146115</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#item1">
+                                       chitiet
+                                       </a>
+                                    </td>
+                                   
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     Lịch Sử Phòng Đã Đặt Thành Công
+                     </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="item">
+                        <div class="w-100" style="overflow-y: scroll;
+                           height: 250px;
+                           ">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th scope="col">Tên Phòng</th>
+                                    <th scope="col">Khách hàng</th>
+                                    <th scope="col">Đợt</th>
+                                    <th scope="col">Tổng Tiền</th>
+                                    <th scope="col"></th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <th>Sunshine Suite Boutique - Only 5 Min Walk To The Beach</th>
+                                    <td>
+                                       <a href="#" data-bs-toggle="modal" data-bs-target="#item2">
+                                       Nguyễn Văn Mạnh
+                                       </a>
+                                      
+                                   
+                                    </td>
+                                    <td>5</td>
+                                    <td>500000000VN</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Danh sách Chủ Phòng Trọ-->
+      <div class="modal fade" id="item1" tabindex="-1" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Chủ Trọ</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"
+                     aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row">
+                    <div class="col-3"><strong>Họ & Tên :</strong></div>
+                    <div class="col-7">
+                       <p>Nguyễn Văn Mạnh</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong>CMD :</strong></div>
+                    <div class="col-7">
+                       <p>0967546564412
+                          223123
+                       </p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong> Địa Chỉ:</strong></div>
+                    <div class="col-7">
+                       <p>76/16 duong van cam</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong>Email :</strong></div>
+                    <div class="col-7">
+                       <p>manh@gmail.com</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-3"><strong>Phone :</strong></div>
+                  <div class="col-7">
+                     <p>09767545465+45</p>
+                  </div>
+               </div>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Modal      Danh sách Chủ Phòng Trọ -->
+      <div class="modal fade" id="item2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="item_1">Chủ Trọ</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                 <div class="row">
+                    <div class="col-3"><strong>Họ & Tên :</strong></div>
+                    <div class="col-7">
+                       <p>Nguyễn Văn Mạnh</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong>CMD :</strong></div>
+                    <div class="col-7">
+                       <p>0967546564412
+                          223123
+                       </p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong> Địa Chỉ:</strong></div>
+                    <div class="col-7">
+                       <p>76/16 duong van cam</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-3"><strong>Email :</strong></div>
+                    <div class="col-7">
+                       <p>manh@gmail.com</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                  <div class="col-3"><strong>Phone :</strong></div>
+                  <div class="col-7">
+                     <p>09767545465+45</p>
+                  </div>
+               </div>
+              </div>
+           </div>
+        </div>
+     </div>
+      <!-- Footer
+         
+         -->
+      <footer>
+         <div class="footer-content">
+            <h1 class="h3 logo">BookingRoo</h1>
+            <p>Dồ Án Học Viên</p>
+          
+         </div>
+         <div class="footer-bottom">
+            
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+         crossorigin="anonymous"></script>
+     
+   </body>
+</html>
